@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "R6_Recoil", "R6_Recoil\R6_Recoil.vcxproj", "{11C20C90-BD6E-4742-8EB3-650F389C9CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11C20C90-BD6E-4742-8EB3-650F389C9CDC}.Debug|x64.ActiveCfg = Debug|x64
+		{11C20C90-BD6E-4742-8EB3-650F389C9CDC}.Debug|x64.Build.0 = Debug|x64
+		{11C20C90-BD6E-4742-8EB3-650F389C9CDC}.Debug|x86.ActiveCfg = Debug|Win32
+		{11C20C90-BD6E-4742-8EB3-650F389C9CDC}.Debug|x86.Build.0 = Debug|Win32
+		{11C20C90-BD6E-4742-8EB3-650F389C9CDC}.Release|x64.ActiveCfg = Release|x64
+		{11C20C90-BD6E-4742-8EB3-650F389C9CDC}.Release|x64.Build.0 = Release|x64
+		{11C20C90-BD6E-4742-8EB3-650F389C9CDC}.Release|x86.ActiveCfg = Release|Win32
+		{11C20C90-BD6E-4742-8EB3-650F389C9CDC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF1F18C6-28DE-49D8-BF38-E8C85C3BE5E9}
+	EndGlobalSection
+EndGlobal
