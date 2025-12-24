@@ -25,8 +25,8 @@ BOOL mouseMacro(int opt) {
     }
     return true;
 }
-    int main()
-    {
+    int main()    {
+        
         do {
             ::ShowWindow(::GetConsoleWindow(), SW_SHOW);
             int option = 0; 
