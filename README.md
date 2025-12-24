@@ -1,0 +1,2 @@
+A lightweight C++ console-based recoil macro for FPS games. It comes with a few options of low, medium, and high recoil control. I will make add-ons later as this is in its infancy.
+<img width="1107" height="580" alt="recoil_screenshot" src="https://github.com/user-attachments/assets/7cfc4d14-5735-4383-91c7-eba149d64e1c" />
