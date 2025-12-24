@@ -25,33 +25,34 @@ BOOL mouseMacro(int opt) {
     }
     return true;
 }
-    int main()    {
+
+int main()    {
         
-        do {
-            ::ShowWindow(::GetConsoleWindow(), SW_SHOW);
-            int option = 0; 
+    do {
+        ::ShowWindow(::GetConsoleWindow(), SW_SHOW);
+        int option = 0; 
 
-            std::cout << "----- [Recoil Controller] ----- \n\n";
+        std::cout << "----- [Recoil Controller] ----- \n\n";
 
-            std::cout << "Reccomeneded options:\n";
-            std::cout << "1 - 5 Low\n";
-            std::cout << "6 - 10 Medium\n"; 
-            std::cout << "11 - 20 High\n\n";
+        std::cout << "Reccomeneded options:\n";
+        std::cout << "1 - 5 Low\n";
+        std::cout << "6 - 10 Medium\n"; 
+        std::cout << "11 - 20 High\n\n";
 
-            std::cout << "[i] Press 'TAB' to stop the macro\n";
-            std::cout << "--->";    
-            std::cin >> option; 
+        std::cout << "[i] Press 'TAB' to stop the macro\n";
+        std::cout << "--->";    
+        std::cin >> option; 
 
-            if (std::cin.fail()) {
-                std::cout << "\n[!] Wrong input";
-                return -1;
-            }
-            else {
-                mouseMacro(option);
-            }
-            std::system("cls");
+        if (std::cin.fail()) {
+            std::cout << "\n[!] Wrong input";
+            return -1;
+        }
+        else {
+            mouseMacro(option);
+        }
+        std::system("cls");
 
-    } while (true);
+} while (true);
 
     return 0;
 }
